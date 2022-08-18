@@ -1,0 +1,34 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "usuario": "Vitoria Pinho",
+      "senha": "admin"
+    },
+    {
+      "id": 2,
+      "usuario": "Stefany Oliveira",
+      "senha": "admin123"
+    },
+    {
+      "id": 3,
+      "usuario": "Maria da Silva",
+      "senha": "admin123"
+    },
+    {
+      "usuario": "Icaro Aguiar",
+      "senha": "123456",
+      "id": 4
+    },
+    {
+      "usuario": "Miri Sampaio ",
+      "senha": "122222",
+      "id": 5
+    },
+    {
+      "usuario": "rodrigo santos ",
+      "senha": "122222",
+      "id": 6
+    }
+  ]
+}
