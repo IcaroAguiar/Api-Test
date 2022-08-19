@@ -24,6 +24,12 @@ form{
     /* background-image:url(../../assets/img/img_central.png); */
     
 }
+img{
+    width: 300px;
+    height: auto;
+
+    
+}
 /* 
 #popup{
 position: fixed;

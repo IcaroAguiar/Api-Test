@@ -1,11 +1,9 @@
-<div
-  id="popup"
-  class="container w-50 h-75 d-flex flex-column justify-content-center"
->
-  <div class="container d-flex flex-column align-items-center">
+
+  <div class="container d-flex flex-column align-items-center mt-3 w-25">
+    <img src="assets\logo.png" alt="Logo da página login" class="img-fluid">
     <label for="user" class="form-label d-none d-lg-block"> Novo usuário</label>
 
-    <label for="user" class="form-label d-lg-none">Novo usuario</label>
+    <label for="user" class="form-label d-lg-none ">Novo usuario</label>
     <input
       type="text"
       class="form-control"
@@ -16,7 +14,7 @@
     />
   </div>
 
-  <div class="container d-flex flex-column align-items-center">
+  <div class="container d-flex flex-column align-items-center w-25">
     <label for="senha" class="form-label"> Nova senha</label>
     <input
       type="password"
@@ -24,28 +22,19 @@
       matInput
       [(ngModel)]="cadastro.senha"
       name="senha"
-      placeholder="Usuario..."
+      placeholder="Senha..."
     />
   </div>
-  <!-- <div class="container d-flex flex-column align-items-center ">
-      <label for="senha" class="form-label"> Confirmar senha</label>
-      <input
-        type="password"
-        class="form-control"
-        id="senha"
-        placeholder="Senha..."
-      />
-    </div> -->
-  <div class="container d-flex flex-column mt-3 w-50">
+  <div class="container d-flex flex-column mt-3 w-25">
     <button
       type="submit"
-      class="btn btn-outline-light pt-1 mx-0"
+      class="btn btn-outline-light pt-1 mx-0 "
       (click)="createCadastro()"
     >
       Cadastrar
     </button>
   </div>
-  <div class="container d-flex flex-column w-50">
+  <div class="container d-flex flex-column w-25">
     <button
       type="submit"
       class="btn btn-outline-light pt-1 mx-0"
@@ -54,7 +43,7 @@
       Cancelar
     </button>
   </div>
-  <div class="container d-flex flex-column w-50">
+  <div class="container d-flex flex-column w-25">
       <button
         type="submit"
         class="btn btn-outline-light pt-1 mx-0 "
@@ -63,4 +52,4 @@
         Todos os cadastros
       </button>
     </div>
-</div>
+

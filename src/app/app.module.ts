@@ -5,9 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './frontend/login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
-import { CadastroReadComponent } from './cadastro/cadastro-read/cadastro-read.component';
 import { CadastroTabelaComponent } from './cadastro/cadastro-tabela/cadastro-tabela.component';
-
+import { CadastroReadComponent } from './cadastro/cadastro-read/cadastro-read/cadastro-read.component';
 
 
 import { MatTableModule } from '@angular/material/table';
@@ -23,6 +22,9 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { CadastroUpdateComponent } from './cadastro/cadastro-update/cadastro-update/cadastro-update.component';
+import { CadastroDeleteComponent } from './cadastro/cadastro-delete/cadastro-delete/cadastro-delete.component';
+
 
 
 @NgModule({
@@ -30,8 +32,10 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     AppComponent,
     LoginComponent,
     CadastroComponent,
+    CadastroTabelaComponent,
     CadastroReadComponent,
-    CadastroTabelaComponent
+    CadastroUpdateComponent,
+    CadastroDeleteComponent
   ],
   imports: [
     BrowserModule,
